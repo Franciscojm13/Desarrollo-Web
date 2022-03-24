@@ -1,0 +1,534 @@
+*{                                                 /*reset*/
+    margin: 0%;
+    padding: 0%;
+    font-family: 'EB Garamond', serif;
+    box-sizing: border-box;
+}  
+
+body{
+    background-color:#EBDCD9;
+    
+}
+
+                                    /*HEADER*/
+
+header h1{                                               
+    text-align: center;
+    margin: 25px;
+    font-weight: 100;
+    font-size: 55px;
+}
+
+.contenedorNavegacion{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contenedorNavegacion a{
+    text-decoration: none;
+    color: #7656a7f1;
+    text-shadow: none 2px 2px;
+}
+
+.contenedorNavegacion li{
+    list-style-type: none;
+    font-size: 30px;
+}
+
+
+.portadaIndex{                                        /*Foto de Portada*/
+    margin: 20px;
+    height: 300px;
+}
+.portadaIndex img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+                                /* INDEX MAIN*/
+
+
+
+.contenedorTarjetas{                          /*Bloque Contenedor de Tarjetas*/
+    background-color: #F0EBE8;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.tarjetaCollage{                               /*Bloque Tarjeta Collage*/
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tarjetaCollage__foto img{
+    border-radius: 10px;
+    width: 640px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.tarjetaCollageArticulo{                        /* Bloque Articulo de Tarjeta Collage*/
+    border: #a0c6e63c solid ;
+    width: 540px;
+    height: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+
+.tarjetaCollageArticulo__enlace{
+    text-decoration: none;
+    color: #7656a7f1;
+    
+}
+
+.tarjetaCollageArticulo__titulo{
+
+    font-size: 30px;
+    font-weight: 100;
+    margin: 30px;
+    
+    
+    
+}
+.tarjetaCollageArticulo__parrafo{
+    
+    font-size: 18px;
+    margin: 30px;
+    margin-top: 0%;
+}
+
+
+.tarjetaGalletas{                             /*Bloque Tarjeta Galletas Toyota*/ 
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.tarjetaGalletas__foto img{          
+    border-radius: 10px;
+    ;
+    width: 640px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.tarjetaGalletasArticulo{                 /* Bloque Articulo de Tarjeta Galletas*/
+    border: #a0c6e63c solid ;
+    width: 540px;
+    height: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tarjetaGalletasArticulo__enlace{
+    text-decoration: none;
+    color: #7656a7f1;
+}
+
+.tarjetaGalletasArticulo__titulo{
+    font-size: 30px;
+    font-weight: 100;
+    margin: 30px;
+}
+
+.tarjetaGalletasArticulo__parrafo{
+    font-size: 18px;
+    margin: 30px;
+    margin-top: 0%;
+}
+
+.tarjetaSonidos{                               /*Bloque Tarjeta Sonidos*/
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tarjetaSonidos__foto img{
+    border-radius: 10px;
+    
+    width: 640px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.tarjetaSonidosArticulo{                         /* Bloque Articulo de Tarjeta Sonidos*/
+    border: #a0c6e63c solid ;
+    width: 540px;
+    height: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tarjetaSonidosArticulo__enlace{
+    text-decoration: none;
+    color: #7656a7f1;
+}
+
+.tarjetaSonidosArticulo__titulo{
+    font-size: 30px;
+    font-weight: 100;
+    margin: 30px;
+}
+
+.tarjetaSonidosArticulo__parrafo{
+    font-size: 18px;
+    margin: 30px;
+    margin-top: 0%;
+}
+
+.barraInstagram{                           /* Barra de Instagram (aún no se hacerla)*/
+    margin: 20px;
+}
+
+.barraInstagram h3{
+    color: #7656a7f1;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.barraInstagram img{
+    border-radius: 10px;
+    width: 100%;
+    display: block;
+}
+
+                                /*LAS OTRAS PÁGINAS*/
+
+
+.container{                               /*Contenedor general para las demás páginas*/
+    box-sizing: border-box;
+    background-color: #F0EBE8;
+    margin: 20px;
+    padding: 40px;
+    border-radius: 10px;
+    
+}
+
+.container__articulo{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    border: #a0c6e63c solid;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 30px;
+    
+
+}
+
+.container__articulo h2{
+    color: #7656a7f1;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.container__articulo p{
+    font-size: 18px;
+}
+
+.container__galeriaCollage{                  /*Contenedor de la galería Collage*/
+    display: grid;
+    border: #a0c6e63c solid;
+    border-radius: 10px;
+    width: 100%;
+    padding: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.item__galeriaCollage{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.item__galeriaCollage img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.item__galeriaCollage h4{
+    color: #7656a7f1;
+    margin: 10px;
+    margin-bottom: 0%;
+    font-weight: 18px;
+}
+
+.container__galeriaGalletas{                /*Contenedor de la galería Galletas Toyota*/
+    display: grid;
+    border: #a0c6e63c solid;
+    border-radius: 10px;
+    width: 100%;
+    padding: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.item__galeriaGalletas{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.item__galeriaGalletas img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.container__gridSonidos{       /*Contenedor de los elementos Sonidos*/
+    display: grid;
+    border: #a0c6e63c solid;
+    border-radius: 10px;
+    width: 100%;
+    padding: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+            "articulo articulo imagen"
+            "soundcloud soundcloud imagen"
+            "video video video";
+    gap: 30px;
+}
+
+.container__articuloSonidos{
+    display: flex;
+    flex-direction: column;
+    grid-area: articulo;
+    
+}
+
+.container__articuloSonidos h2{
+    color: #7656a7f1;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.container__articuloSonidos p{
+    font-size: 18px; 
+}
+
+.imagenSonidos{
+    grid-area: imagen;
+}
+
+.imagenSonidos img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.container__soundcloud{
+    grid-area: soundcloud;
+    
+}
+
+.container__soundcloud iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.container__videos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-area: video;
+    gap: 30px;
+}
+
+.video{
+    width: 100%; 
+}
+
+.video iframe{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.container__gridSobreMi{       /*Contenedor de los elementos Sobre Mi*/
+    display: grid;
+    border: #a0c6e63c solid;
+    border-radius: 10px;
+    width: 100%;
+    padding: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+            "imagen articulo"
+            "imagen articulo"
+            "instagram instagram";
+    gap: 30px;
+}
+
+.container__articuloSobreMi{
+    display: flex;
+    flex-direction: column;
+    grid-area: articulo;
+}
+
+.container__articuloSobreMi h2{
+    color: #7656a7f1;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.container__articuloSobreMi p{
+    font-size: 18px; 
+}
+
+.imagenSobreMi{
+    grid-area: imagen;
+}
+
+.imagenSobreMi img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.barraInstagram{
+    grid-area: instagram;
+}
+
+.container__contacto{               /*Contenedor del Formulario de Contacto*/
+
+
+}
+
+.container__contacto h2{
+    color: #7656a7f1;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.contact_wraper{
+    width:  auto;
+    padding: 0 300px 0 300px;
+}
+
+.fieldset{
+    border: #a0c6e63c solid;
+    border-radius: 10px;
+}
+
+.fieldset form{
+    margin: 0;
+    padding: 2em;
+}
+
+.fieldset form input{
+    width: 100%;
+    border-radius: 5px;
+    border: solid;
+    border-color: #a0c6e63c;
+    margin-bottom: 10px;
+
+}
+.fieldset form textarea{
+    width: 100%;
+    border-radius: 5px;
+    border: solid;
+    border-color: #a0c6e63c;
+    
+}
+.fieldset form label{
+    color: #7656a7f1;
+
+}
+
+                                        /*FOOTER*/
+
+#footer{                                           
+    background-color: #a3c9e9ac;
+    border-top: black solid;
+}
+
+.contenidoFooter{                                  /*Bloque contenedor del Footer*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenidoFooter__contacto{
+    
+    
+    width: 300px;
+    height: 130px;
+    margin-top: 20px;
+    margin-left: 90px;
+    line-height: 40px;
+    
+}
+
+.contenidoFooter__contacto ul li{
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.contenidoFooter__contacto ul li a{
+    
+    text-decoration: none;
+    color: #7656a7f1;
+}
+
+.contenidoFooter__rrss{
+    
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 90px;
+    width: 300px;
+    height: 80px;
+    
+}
+.contenidoFooter__rrss a{
+    text-decoration: none;
+}
+
+.contenidoFooter__rrss h3{
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 15px;
+    color: #7656a7f1;
+}
+
+.contenidoFooter__rrss img{
+    width: 30px;
+}
+
+footer p{
+    text-align: center;
+    padding: 10px;
+}
